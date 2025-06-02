@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samdasoo</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 <body class="">
@@ -104,27 +106,29 @@
         </dt>
         <dd>우리가 믿는 물, 제주삼다수<br>앞으로도 늘 지금처럼 깨끗하고 맑을 것을 약속합니다.</dd>
       </dl>
-      <div class="in-wrap">
-
-        <div class="instar-wrap">
-          <div class="more-wrap">
-            <h3>MORE STORY</h3>
-            <p>다수가 물든 이야기,
-              앞으로도 우리와 함께할 <br> 제주삼다수 이야기</p>
-          </div>
-          <!-- position:absolute -->
-          <div class="sns-wrap">
-            <a href="#">instargram > </a>
-            <a href="#">youtube > </a>
-          </div>
+      <div class="instar-wrap">
+        <div class="more-wrap">
+          <h3>MORE STORY</h3>
+          <p>다수가 물든 이야기,
+            앞으로도 우리와 함께할 <br> 제주삼다수 이야기</p>
         </div>
-
-        <!-- swiper height:28rem -->
-        <div class="sc3-slider-wrap">
-          <img src="./img/footer-img.png" alt="img">
+        <!-- position:absolute -->
+        <div class="sns-wrap">
+          <a href="#">instargram > </a>
+          <a href="#">youtube > </a>
         </div>
       </div>
 
+      <!-- swiper height:28rem -->
+      <div class="sc3-slider-wrap">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide num1">Slide 1</div>
+            <div class="swiper-slide num2">Slide 2</div>
+            <div class="swiper-slide num3">Slide 3</div>
+          </div>
+        </div> 
+      </div>
 
     </section>
   </div>
@@ -170,9 +174,6 @@
         <img src="./img/foot_logo.png" alt="">
       </a>
     </h4>
-    <div class="scroll-up">
-      <img src="./img/scroll.png" alt="">
-    </div>
   </footer>
   <!-- GSAP 본체 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -180,9 +181,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
   <!-- ScrollTrigger 플러그인 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./js/app.js"></script>
   <script src="./js/wheel.js"></script>
-  <script src="./js/scroll.js"></script>
 </body>
 
 </html>

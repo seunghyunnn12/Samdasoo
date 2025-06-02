@@ -238,7 +238,7 @@ header .right-wrap {
   max-width: 80%;
 }
 
-/*  act */
+/* header act */
 .act-1 header h1 a,
 .act-2 header h1 a {
   background-image: url(../img/foot_logo.png);
@@ -256,9 +256,9 @@ header .right-wrap {
 
 
 /* 3번 물병 안나오게 */
-/* .act-3 .fixed-samdasoo img{
+.act-3 .fixed-samdasoo img{
   opacity: 0;
-} */
+}
 
 /* 3 */
 .sc3 {
@@ -294,16 +294,12 @@ header .right-wrap {
   text-align: left;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5rem;
 }
 .sns-wrap a{
   display: block;
   color: #fff;
   text-transform: uppercase;
   margin: 1rem 0;
-}
-.sc3 .in-wrap {
-  width: 100%;
 }
 
 .sc3 .instar-wrap h3{
@@ -328,7 +324,6 @@ padding: 3rem 2rem;
 footer .depth1{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
 }
 .sns-link{
   max-width: 11.9rem;
@@ -370,6 +365,21 @@ margin-bottom: 3rem;
 .foot-logo img{
   width: 10.5rem;
 }
-.scroll-up {
-  display: none;
+
+
+.swiper-slide {
+  font-size: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper-slide.num1 {
+  background-image: url(../img/swiper-img.png);
+}
+.swiper-slide.num2 {
+  background-image: url(../img/swiper-img-1.png);
+}
+.swiper-slide.num3 {
+  background-image: url(../img/swiper-img-2.png);
 }

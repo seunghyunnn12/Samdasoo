@@ -7,16 +7,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const navList = document.querySelectorAll('nav ul li')
   const section = document.querySelectorAll('#section-wrap>section')
-  const scrollUpBtn = document.querySelector('.scroll-up')
-
-
-  scrollUpBtn.addEventListener('click',()=>{
-     gsap.to(window, {
-        scrollTo: {
-          y: 0
-        }
-      })
-  })
 
   let pageNum = 0
   const totalNum = section.length
@@ -146,6 +136,8 @@ window.addEventListener('DOMContentLoaded', () => {
     e.preventDefault()
     body.classList.toggle('modalNav-Open')
   })
+
+  var swiper = new Swiper(".mySwiper", {});
 
 
 })
